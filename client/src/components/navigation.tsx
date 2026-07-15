@@ -45,7 +45,7 @@ export default function Navigation() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14 md:h-16">
+          <div className="flex items-center justify-between h-16 md:h-20">
             <motion.div
               className="flex items-center gap-3"
               whileHover={{ scale: 1.02 }}
@@ -53,7 +53,7 @@ export default function Navigation() {
               <img
                 src={kudaLogo}
                 alt="KUDA 로고"
-                className="h-12 md:h-14 w-auto"
+                className="h-14 md:h-16 w-auto"
                 data-testid="img-logo"
               />
             </motion.div>
