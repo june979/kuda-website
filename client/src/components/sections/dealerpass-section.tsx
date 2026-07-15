@@ -84,7 +84,7 @@ export default function DealerPassSection() {
                   </div>
                   <h3 className="font-bold text-destructive">Before</h3>
                 </div>
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-2 border-destructive/30">
+                <div className="w-32 h-32 sm:w-36 sm:h-36 mx-auto mb-5 rounded-full overflow-hidden border-2 border-destructive/30 shadow-md">
                   <img
                     src={badDealerImage}
                     alt="나쁜 딜러"
@@ -109,7 +109,7 @@ export default function DealerPassSection() {
                   </div>
                   <h3 className="font-bold text-primary">After</h3>
                 </div>
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-2 border-primary/30">
+                <div className="w-32 h-32 sm:w-36 sm:h-36 mx-auto mb-5 rounded-full overflow-hidden border-2 border-primary/30 shadow-md">
                   <img
                     src={goodDealerImage}
                     alt="좋은 딜러"
