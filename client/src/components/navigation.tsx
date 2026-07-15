@@ -53,7 +53,7 @@ export default function Navigation() {
               <img
                 src={kudaLogo}
                 alt="KUDA 로고"
-                className="h-10 md:h-12 w-auto"
+                className="h-12 md:h-14 w-auto"
                 data-testid="img-logo"
               />
             </motion.div>
