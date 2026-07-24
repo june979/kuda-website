@@ -4,7 +4,7 @@ import { Smartphone, BadgeCheck, ArrowRight, X, Check } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import dealerpassImage1 from "@assets/image_1769044497543.png";
 import dealerpassImage2 from "@assets/image_1769044532564.png";
-import kudaLogo from "@assets/image_1769044329726.png";
+import kudaLogo from "@assets/kuda-logo-symbol.png";
 import badDealerImage from "@assets/image_1769043820718.png";
 import goodDealerImage from "@assets/image_1769043850006.png";
 
