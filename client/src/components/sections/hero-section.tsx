@@ -1,8 +1,20 @@
-import { motion } from "framer-motion";
+import { motion, animate } from "framer-motion";
+import { useEffect, useState } from "react";
 import { ChevronDown, Shield } from "lucide-react";
 import heroImage from "@assets/image_1.jpg_1769010021942.jpg";
 
 export default function HeroSection() {
+  const [dealerCount, setDealerCount] = useState(0);
+
+  useEffect(() => {
+    const controls = animate(0, 11253, {
+      duration: 2,
+      ease: "easeOut",
+      onUpdate: (v) => setDealerCount(Math.round(v)),
+    });
+    return () => controls.stop();
+  }, []);
+
   const scrollToIntro = () => {
     const element = document.getElementById("intro");
     if (element) {
@@ -53,7 +65,7 @@ export default function HeroSection() {
                   className="block text-5xl sm:text-6xl md:text-7xl font-bold text-white"
                   data-testid="text-dealer-count"
                 >
-                  11,253
+                  {dealerCount.toLocaleString()}
                 </motion.span>
                 <span className="text-white/80 text-lg sm:text-xl mt-2 block">명의 국가 공인 딜러가</span>
               </div>

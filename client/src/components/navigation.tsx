@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import kudaLogo from "@assets/KakaoTalk_20260121_174123289_02_1769010486180.png";
+import kudaLogo from "@assets/kuda-logo-trimmed.png";
 
 const navItems = [
   { id: "intro", label: "소개" },
