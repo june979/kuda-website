@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { Phone, HeadphonesIcon, Smartphone } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import kudaLogo from "@assets/KakaoTalk_20260121_174123289_02_1769010486180.png";
+import kudaLogo from "@assets/kuda-logo-trimmed.png";
 import moLitLogo from "@assets/image_1769050059074.png";
 
 const contacts = [
@@ -114,10 +114,10 @@ export default function ContactSection() {
             <img
               src={kudaLogo}
               alt="KUDA 로고"
-              className="h-8 w-auto"
+              className="h-9 w-auto"
               data-testid="img-footer-logo"
             />
-            <div className="h-8 w-px bg-border" />
+            <div className="h-9 w-px bg-border" />
             <span className="text-sm text-muted-foreground">
               Korea Usedcar Dealers Association
             </span>
