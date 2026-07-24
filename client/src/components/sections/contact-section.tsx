@@ -118,8 +118,10 @@ export default function ContactSection() {
               data-testid="img-footer-logo"
             />
             <div className="h-7 w-px bg-border" />
-            <span className="text-sm text-muted-foreground">
-              Korea Usedcar Dealers Association
+            <span className="text-sm text-muted-foreground leading-snug">
+              <span className="whitespace-nowrap">Korea Usedcar</span>
+              <br />
+              <span className="whitespace-nowrap">Dealers Association</span>
             </span>
           </div>
 
